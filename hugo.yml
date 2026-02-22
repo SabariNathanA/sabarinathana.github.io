@@ -22,7 +22,7 @@ params:
   profileMode:
     enabled: true
     title: "Sabari Nathan Anbalagan"
-    subtitle: "Lecturer (UTwente, VU Amsterdam) | Applied Researcher (Inertia Technology)"
+    subtitle: "Lecturer (Univ. of Twente, VU Amsterdam) | Applied Researcher (Inertia Technology)"
     imageUrl: "/images/Sabari.jpg" 
     imageWidth: 150
     imageHeight: 150
