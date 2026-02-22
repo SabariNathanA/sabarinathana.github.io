@@ -11,8 +11,8 @@ params:
   defaultTheme: dark
   ShowShareButtons: true
   ShowReadingTime: true
+  ShowBreadCrumbs: true # High-value for academic site navigation
   
-  # Image Configuration for Whitepapers
   cover:
     hidden: false 
     hiddenInList: false
@@ -21,20 +21,23 @@ params:
   # Homepage Profile Configuration
   profileMode:
     enabled: true
-    title: "Sabari Nathan Anbalagan"
-    subtitle: "Lecturer (Univ. of Twente, VU Amsterdam) | Applied Researcher (Inertia Technology)"
+    title: "Dr. Sabari Nathan Anbalagan"
+    # The wayfinding sentence is integrated into the subtitle
+    subtitle: >
+      **Lecturer** (UTwente & VU Amsterdam) | **Industrial Researcher** (Inertia Technology) | **IIIT-B Alumnus**
+      
+      Explore my **[Academic Research](/research)**, **[Teaching Portfolio](/teaching)**, or **[Applied Industrial R&D](/research/#industrial-rd)**.
     imageUrl: "/images/Sabari.jpg" 
     imageWidth: 150
     imageHeight: 150
     buttons:
-      - name: 📄 Technical Reports
-        url: "/tech-reports"
-      - name: 👨‍🏫 CV & Experience
-        url: "/cv"
-      - name: 🛠️ Tools & Code
-        url: "/tools"
+      - name: 📄 Academic CV (PDF)
+        url: "/cv.pdf"
+      - name: 🏫 Teaching & Pedagogy
+        url: "/teaching"
+      - name: 🧪 Industrial R&D
+        url: "/research/#industrial-rd"
 
-  # Social Icons
   socialIcons:
     - name: linkedin
       url: "https://linkedin.com/in/sabarianbalagan"
@@ -45,23 +48,19 @@ params:
 
 menu:
   main:
-    - identifier: cv
-      name: "CV"
-      url: "/cv/"
+    - identifier: about
+      name: "About"
+      url: "/about/"
       weight: 10
-    - identifier: tech-reports      
-      name: "Technical Reports"     
-      url: "/tech-reports/"         
+    - identifier: research
+      name: "Research"
+      url: "/research/"
       weight: 20
-    - identifier: publications
-      name: "Publications"
-      url: "/publications/"
+    - identifier: teaching
+      name: "Teaching"
+      url: "/teaching/"
       weight: 30
-    - identifier: tools
-      name: "Tools"
-      url: "/tools/"
+    - identifier: contact
+      name: "Contact"
+      url: "/contact/"
       weight: 40
-    - identifier: talks
-      name: "Talks"
-      url: "/talks/"
-      weight: 50

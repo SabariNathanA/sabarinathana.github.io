@@ -1,0 +1,16 @@
+/* Make homepage subtitle links look like clean buttons/links */
+.profileMode .style-subtitle a {
+    color: var(--secondary);
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.profileMode .style-subtitle a:hover {
+    color: var(--tertiary);
+}
+
+/* Ensure menu doesn't scroll horizontally on tiny screens */
+.menu {
+    flex-wrap: wrap;
+    justify-content: center;
+}
