@@ -1,0 +1,67 @@
+baseURL: "https://sabari.phd/"
+title: "Sabari Nathan Anbalagan"
+theme: "PaperMod"
+languageCode: "en-us"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+params:
+  defaultTheme: dark
+  ShowShareButtons: true
+  ShowReadingTime: true
+  
+  # Image Configuration for Whitepapers
+  cover:
+    hidden: false 
+    hiddenInList: false
+    responsiveImages: true
+
+  # Homepage Profile Configuration
+  profileMode:
+    enabled: true
+    title: "Sabari Nathan Anbalagan"
+    subtitle: "Assistant Professor (UT) | Applied Researcher (Inertia)"
+    imageUrl: "/images/profile.jpg" 
+    imageWidth: 150
+    imageHeight: 150
+    buttons:
+      - name: 📄 Industrial Whitepapers
+        url: "/whitepapers"
+      - name: 👨‍🏫 CV & Experience
+        url: "/cv"
+      - name: 🛠️ Tools & Code
+        url: "/tools"
+
+  # Social Icons
+  socialIcons:
+    - name: linkedin
+      url: "https://linkedin.com/in/sabarianbalagan"
+    - name: google-scholar
+      url: "https://scholar.google.com/citations?user=RZScMEYAAAAJ"
+    - name: github
+      url: "https://github.com/SabariNathanA"
+
+menu:
+  main:
+    - identifier: cv
+      name: "CV"
+      url: "/cv/"
+      weight: 10
+    - identifier: whitepapers
+      name: "Whitepapers"
+      url: "/whitepapers/"
+      weight: 20
+    - identifier: publications
+      name: "Publications"
+      url: "/publications/"
+      weight: 30
+    - identifier: tools
+      name: "Tools"
+      url: "/tools/"
+      weight: 40
+    - identifier: talks
+      name: "Talks"
+      url: "/talks/"
+      weight: 50
