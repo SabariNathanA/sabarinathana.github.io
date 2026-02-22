@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 layout: "page"
-summary: "Academic and Industrial Timeline"
+summary: "Academic and Experience Timeline"
 ---
 
 ## 🎓 Education
