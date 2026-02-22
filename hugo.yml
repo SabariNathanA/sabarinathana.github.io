@@ -22,13 +22,13 @@ params:
   profileMode:
     enabled: true
     title: "Sabari Nathan Anbalagan"
-    subtitle: "Assistant Professor (UT) | Applied Researcher (Inertia)"
+    subtitle: "Lecturer (UTwente, VU Amsterdam) | Applied Researcher (Inertia Technology)"
     imageUrl: "/images/profile.jpg" 
     imageWidth: 150
     imageHeight: 150
     buttons:
-      - name: 📄 Industrial Whitepapers
-        url: "/whitepapers"
+      - name: 📄 Technical Reports
+        url: "/tech-reports"
       - name: 👨‍🏫 CV & Experience
         url: "/cv"
       - name: 🛠️ Tools & Code
@@ -49,9 +49,9 @@ menu:
       name: "CV"
       url: "/cv/"
       weight: 10
-    - identifier: whitepapers
-      name: "Whitepapers"
-      url: "/whitepapers/"
+    - identifier: tech-reports      
+      name: "Technical Reports"     
+      url: "/tech-reports/"         
       weight: 20
     - identifier: publications
       name: "Publications"
