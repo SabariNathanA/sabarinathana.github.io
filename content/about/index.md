@@ -75,7 +75,7 @@ My mission is to bridge the gap between complex communication protocols and the 
 
 ### 📩 Contact & Links
 *   **Email:** [your-email@utwente.nl]
-*   **Location:** Enschede, Netherlands (Relocating to Tamil Nadu in 2027)
+*   **Location:** Enschede, Netherlands 
 *   **Network:** [LinkedIn](https://linkedin.com/in/sabarianbalagan) | [Google Scholar](your-link)
 
 [**Download Full Academic CV (PDF)**](/cv.pdf)
